@@ -22,7 +22,7 @@ The features of this library include two monitoring grpc interceptors, `Monitori
     * `grpc_client_msg_sent_total`: Total number of stream messages sent by the client.
     
 Note that by passing a `Configuration` instance to the interceptors, it is possible to configure the following:
-* Whether or not a latency histogram is recroded for rpcs.
+* Whether or not a latency histogram is recorded for rpcs.
 * Which historam buckets to use for the latency metrics.
 * Which Prometheus `CollectorRegistry` the metrics get registered with.
 
